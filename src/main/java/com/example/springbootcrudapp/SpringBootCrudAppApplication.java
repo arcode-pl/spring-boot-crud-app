@@ -9,7 +9,6 @@ public class SpringBootCrudAppApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootCrudAppApplication.class, args);
 	}
-
 }
 
 //EntityManager em = emf.createEntityManager();
@@ -17,3 +16,6 @@ public class SpringBootCrudAppApplication {
 //Session session = em.unwrap(Session.class);
 // 
 //Book b = session.byNaturalId(Book.class).using(Book_.isbn.getName(), “978-0321356680”).load();
+
+//TODO: Try enable CrossOrigins and test for not access from not allowed location
+//TODO: Spring security with registration and login

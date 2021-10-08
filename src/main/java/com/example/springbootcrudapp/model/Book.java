@@ -20,7 +20,11 @@ public class Book {
 	private String isbn;
 	private String description;
 	private boolean published;
-	
+
+	public Book() {
+		super();
+	}
+
 	public Book(String title, String isbn, String description, boolean published) {
 		super();
 		this.title = title;
@@ -36,7 +40,7 @@ public class Book {
 	public String getTitle() {
 		return title;
 	}
-	
+
 	public void setTitle(String title) {
 		this.title = title;
 	}
@@ -52,7 +56,7 @@ public class Book {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	
+
 	public boolean isPublished() {
 		return published;
 	}
